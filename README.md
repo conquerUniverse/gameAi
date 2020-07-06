@@ -10,6 +10,8 @@
     
 - Tic Tac Toe ( Alpha - Beta Pruning )
 - [Achi AI](AchiAI.ipynb)
+  - References
+    - https://tforgione.fr/posts/ansi-escape-codes/ `Coloring scheme`
 - Sudoku Solver
 - Balancing Cart pole (DL)
 
