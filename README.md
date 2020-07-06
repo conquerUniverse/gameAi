@@ -9,11 +9,13 @@
     - https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/
     
 - Tic Tac Toe ( Alpha - Beta Pruning )
+- [Achi AI](AxhiAI.ipynb)
 - Sudoku Solver
 - Balancing Cart pole (DL)
 
 
 ## TimeLine
 - [x] Basic Tic Tac Toe
-- [ ] Use Alpha - Beta Pruning Or other optimisation technique
+- [x] Use Alpha - Beta Pruning Or other optimisation technique
+- [x] Achi Game
 - [ ] Sudoku Solver
