@@ -20,4 +20,4 @@
 - [x] Basic Tic Tac Toe
 - [x] Use Alpha - Beta Pruning Or other optimisation technique
 - [x] Achi Game
-- [ ] Sudoku Solver
+- [x] Sudoku Solver
