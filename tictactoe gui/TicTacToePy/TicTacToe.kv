@@ -1,0 +1,55 @@
+#: kivy 1.11.0
+#: import sysexit sys.exit
+
+<Cell@Button>:   
+    # background_color: 0, 0, 0, 1
+    font_size: 144
+    background_normal: 'up.png'
+    background_down: 'down.png'
+    border: 30, 30, 30, 30
+    size_hint: (0.3, 0.3) 
+
+
+<MainMenu@Screen>:
+    BoxLayout:
+        padding: (self.width*0.4,self.height*0.4)
+        # size_hint: (.4, .6)
+        orientation: 'vertical'
+        Button:
+            background_color: .6, .8, .7, .7
+            # padding: (50,50)
+            text: 'Play'
+            on_release:
+                root.manager.transition.direction = 'left'
+                root.manager.current = 'sp'
+        # Button:
+        #     text: 'Settings'
+            # on_release:
+                # root.manager.transition.direction = 'right'
+                # root.manager.current = 'settings'
+        Button:
+            background_color: .6, .8, .7, 1
+            # padding: (50,50)
+            text: 'Quit'
+            on_release: sysexit(0)
+
+# <PlayMenu@Screen>:
+#     BoxLayout:
+#         orientation: 'vertical'
+#         Button:
+#             # text: 'Singleplayer'
+#             on_release:
+#                 root.manager.transition.direction = 'left'
+#                 root.manager.current = 'sp'
+#         Button:
+#             text: 'Multiplayer'
+#             on_release:
+#                 root.manager.transition.direction = 'left'
+#                 root.manager.current = 'mp'
+#         Button:
+#             text: 'Back'
+#             on_release:
+#                 root.manager.transition.direction = 'right'
+#                 root.manager.current = 'menu'
+
+# <SettingsMenu@Screen>:
