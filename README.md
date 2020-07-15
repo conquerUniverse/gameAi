@@ -13,7 +13,14 @@
 - Balancing Cart pole (DL)
 
 
+# updates
+  - Restructured the Repo
+  
 ## TimeLine
 - [x] Basic Tic Tac Toe
-- [ ] Use Alpha - Beta Pruning Or other optimisation technique
-- [ ] Sudoku Solver
+- [x] Use Alpha - Beta Pruning Or other optimisation technique
+- [x] Achi
+- [x] Sudoku Solver
+- [x] Checkers
+- [ ] Chess
+- [ ] connect4
