@@ -11,6 +11,8 @@
 - Tic Tac Toe ( Monte Carlo Tree Search)
   - Ref
     - https://nestedsoftware.com/2019/08/07/tic-tac-toe-with-mcts-2h5k.152104.html
+    - https://www.baeldung.com/java-monte-carlo-tree-search (explained)
+    - https://www.analyticsvidhya.com/blog/2019/01/monte-carlo-tree-search-introduction-algorithm-deepmind-alphago/ (best explanantion)
 - Sudoku Solver
 - Balancing Cart pole (DL)
 
