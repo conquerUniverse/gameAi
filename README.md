@@ -21,6 +21,8 @@
   - Restructured the Repo
   
 ## TimeLine
+---
+### Phase 1 - Two player Game with algorithms
 - [x] Basic Tic Tac Toe
 - [x] Use Alpha - Beta Pruning Or other optimisation technique
 - [x] Achi
@@ -28,3 +30,11 @@
 - [x] Checkers
 - [ ] Chess
 - [ ] connect4
+
+- ### Phase 2 - Apply DL in phase 1 games
+- [ ] Basic Tic Tac Toe
+- [ ] Achi
+- [ ] Checkers
+- [ ] Chess
+- [ ] connect4
+
