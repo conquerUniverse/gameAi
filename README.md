@@ -19,19 +19,21 @@
 
 # updates
   - Restructured the Repo
+  - create engine module for easy access
   
 ## TimeLine
 ---
-### Phase 1 - Two player Game with algorithms
+### Phase 1 a - Two player Game with algorithms
 - [x] Basic Tic Tac Toe
 - [x] Use Alpha - Beta Pruning Or other optimisation technique
 - [x] Achi
 - [x] Sudoku Solver
 - [x] Checkers
+### Phase 1 b 
 - [ ] Chess
 - [ ] connect4
 
-- ### Phase 2 - Apply DL in phase 1 games
+### Phase 2 - Apply DL in phase 1 games
 - [ ] Basic Tic Tac Toe
 - [ ] Achi
 - [ ] Checkers
