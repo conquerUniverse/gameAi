@@ -2,7 +2,7 @@ import pygame
 import sys 
 import time 
 from achi import Achi
-
+import os
 
 
 SQUARE_SIZE = 150
@@ -18,14 +18,21 @@ fps = 30
   
 CLOCK = pygame.time.Clock() 
 
+curdir = os.getcwd()
+
+# print("paht ",curdir)
+def getPath(file_name):
+    parentPath = ["Achi","Achi_GUI"]
+    return os.path.join(curdir,*parentPath,file_name)
+
 screen = pygame.display.set_mode((width, height)) 
 pygame.display.set_caption("ACHI")
 
 RED = pygame.transform.scale(
-    pygame.image.load('red.png'),
+    pygame.image.load(getPath('red.png')),
     (SQUARE_SIZE//2, SQUARE_SIZE//2))
 BLACK = pygame.transform.scale(
-    pygame.image.load('black.png'),
+    pygame.image.load(getPath('black.png')),
     (SQUARE_SIZE//2, SQUARE_SIZE//2))
 
 def game_initiating_window(): 

@@ -2,7 +2,7 @@ import enum
 import sys
 import pygame
 import nbimporter
-from Checkers_backup import Checkers
+from CheckersEngine import Checkers
 from pygame.rect import Rect
 import pygame.gfxdraw
 import chess

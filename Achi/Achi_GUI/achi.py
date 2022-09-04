@@ -103,7 +103,7 @@ class Achi:
   def minMax(self,depth,isMaxPlayer, alpha, beta):
     
       
-    if depth > 7:
+    if depth > 3:
       return {'position' : None, 'prize' : 0}
     ss = self.isComplete(self.state)
     
