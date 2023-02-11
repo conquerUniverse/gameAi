@@ -18,7 +18,7 @@ docutils==0.19
 executing==1.0.0
 fastjsonschema==2.16.1
 idna==3.3; python_version >= '3.5'
-ipython==8.4.0
+ipython==8.10.0
 jedi==0.18.1; python_version >= '3.6'
 jsonschema==4.15.0; python_version >= '3.7'
 jupyter-core==4.11.1; python_version >= '3.7'
